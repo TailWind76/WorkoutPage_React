@@ -15,42 +15,42 @@ const ExampleExercises = [
                 "est_calories": 200,
                 "duration": "15 minutes",
                 "img": treadmill,
-                "link":'/treadmill'
+                "link":'WorkoutPage_React/treadmill'
             },
             {
                 "title": "stretching",
                 "est_calories": 50,
                 "duration": "10 minutes",
                 "img": stretching,
-                "link":'/stretching'
+                "link":'WorkoutPage_React/stretching'
             },
             {
                 "title": "yoga",
                 "est_calories": 150,
                 "duration": "30 minutes",
                 "img": yoga,
-                "link":'/yoga'
+                "link":'WorkoutPage_React/yoga'
             },
             {
                 "title": "pushUp",
                 "est_calories": 100,
                 "duration": "15 minutes",
                 "img": pushup,
-                "link":'/pushup'
+                "link":'WorkoutPage_React/pushup'
             },
             {
                 "title": "Running",
                 "est_calories": 250,
                 "duration": "20 minutes",
                 "img": running,
-                "link":'/running'
+                "link":'WorkoutPage_React/running'
             },
             {
                 "title": "Lifting",
                 "est_calories": 180,
                 "duration": "25 minutes",
                 "img": lifting,
-                "link":'/lifting'
+                "link":'WorkoutPage_React/lifting'
             }
         ]
     }
