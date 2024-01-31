@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/WorkoutPage_React/static/css/main.4e05c406.css",
+    "main.js": "/WorkoutPage_React/static/js/main.52029feb.js",
+    "static/js/787.d4aba7ab.chunk.js": "/WorkoutPage_React/static/js/787.d4aba7ab.chunk.js",
+    "static/media/PushUp.png": "/WorkoutPage_React/static/media/PushUp.278bf092edb506af9663.png",
+    "static/media/Running.png": "/WorkoutPage_React/static/media/Running.a8350bb7db220cfd631e.png",
+    "static/media/Karen.png": "/WorkoutPage_React/static/media/Karen.454a4d31894d413723dd.png",
+    "static/media/Lifting.png": "/WorkoutPage_React/static/media/Lifting.4df1f6aea40950283263.png",
+    "static/media/Jonathan.png": "/WorkoutPage_React/static/media/Jonathan.af4f0a4c0e959d49a675.png",
+    "static/media/Samantha.png": "/WorkoutPage_React/static/media/Samantha.13343509546df479c357.png",
+    "static/media/Treadmill.png": "/WorkoutPage_React/static/media/Treadmill.cc1a065f85c707f6be27.png",
+    "static/media/Stretching.png": "/WorkoutPage_React/static/media/Stretching.106cad4869ce265e28da.png",
+    "static/media/runningBanner.png": "/WorkoutPage_React/static/media/runningBanner.6067da7287b52c7b03b0.png",
+    "static/media/Yoga.png": "/WorkoutPage_React/static/media/Yoga.0e28b7d38ed5ac1e23dc.png",
+    "static/media/liftingBanner.png": "/WorkoutPage_React/static/media/liftingBanner.9530332dbe1b1730479c.png",
+    "static/media/TreadmilBanner.png": "/WorkoutPage_React/static/media/TreadmilBanner.4e2f4098bfb180096695.png",
+    "static/media/yogaBanner.png": "/WorkoutPage_React/static/media/yogaBanner.f403b05a5366e1c5f6f3.png",
+    "static/media/pricing3.jpg": "/WorkoutPage_React/static/media/pricing3.567581349f0dfcca00f3.jpg",
+    "static/media/PushUpBanner.png": "/WorkoutPage_React/static/media/PushUpBanner.06d3008c620b473450a4.png",
+    "static/media/workoutIMG.png": "/WorkoutPage_React/static/media/workoutIMG.5826613367ebf0e0a9e9.png",
+    "static/media/StretchingBanner.png": "/WorkoutPage_React/static/media/StretchingBanner.895997845fc73d3d923b.png",
+    "static/media/pricing2.jpg": "/WorkoutPage_React/static/media/pricing2.826ca2a2ca20a95eb4f4.jpg",
+    "static/media/Poppins-Regular.woff": "/WorkoutPage_React/static/media/Poppins-Regular.6c52b9ac6734cdb52c11.woff",
+    "static/media/Poppins-Light.woff": "/WorkoutPage_React/static/media/Poppins-Light.2f3adb62c7744590f47e.woff",
+    "static/media/Poppins-Bold.woff": "/WorkoutPage_React/static/media/Poppins-Bold.d43f2660fae51d565685.woff",
+    "static/media/pricing1.jpg": "/WorkoutPage_React/static/media/pricing1.95f366046e1c5a62c712.jpg",
+    "static/media/spot.svg": "/WorkoutPage_React/static/media/spot.1fd65b5b69491c2243f1775578d2cb7c.svg",
+    "static/media/ciupon.svg": "/WorkoutPage_React/static/media/ciupon.96820c2f88d00eaada16d27a57a78ddd.svg",
+    "index.html": "/WorkoutPage_React/index.html",
+    "static/media/arrow.svg": "/WorkoutPage_React/static/media/arrow.f28afa62b31a43e280766414b9b03e95.svg",
+    "main.4e05c406.css.map": "/WorkoutPage_React/static/css/main.4e05c406.css.map",
+    "main.52029feb.js.map": "/WorkoutPage_React/static/js/main.52029feb.js.map",
+    "787.d4aba7ab.chunk.js.map": "/WorkoutPage_React/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e05c406.css",
+    "static/js/main.52029feb.js"
+  ]
+}
