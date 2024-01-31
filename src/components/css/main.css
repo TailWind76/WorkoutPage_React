@@ -1,0 +1,1146 @@
+*{
+    transition: ease 0.6s;
+    letter-spacing: 1px;
+    user-select: none;
+    scroll-behavior: smooth;
+  }
+  
+  html{
+    margin: 0;
+  }
+  body{
+    background-color: #000;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 1.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  @font-face {
+    font-family: Poppins-bold;
+    src: url('../font/Poppins-Bold.woff');
+  }
+  @font-face {
+    font-family: Poppins-regular;
+    src: url("../font/Poppins-Regular.woff");
+  }
+  @font-face {
+    font-family: Poppins-light;
+    src: url("../font/Poppins-Light.woff");
+  }
+
+ 
+
+
+  /*CSS ASSETS*/
+
+   a{
+    text-decoration: none;
+   }
+    p{
+        margin: 0;
+        padding: 0;
+        font-family: Poppins-regular;
+    }
+
+
+  
+    .button{
+    display: block;
+    width: 200px;
+    border-radius: 10px;
+    font-family: Poppins-regular;
+    background: #ffffff1e;
+    height: 70px;
+    font-size: 18px;
+    color: #fff;
+    flex-shrink: 0;
+    display: flex;
+    font-weight: bold;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    }
+
+    .no-scroll{
+        overflow: hidden;
+    }
+
+
+    .button-green{
+        background: #25AB75;  
+    }
+
+    .close-modal{
+        position: absolute;
+        right: 2%;
+        cursor: pointer;
+        top: 2%;
+        color: #fff;
+        font-size: 2.5em;
+    }
+    .icon{
+        font-size: 2.5em;
+    }
+    .arrow-next{
+        cursor: pointer;
+    }
+    
+    h1{
+        color: #fff;
+        font-family: Poppins-regular;
+        font-size: 1.5em;
+      }
+
+      .Mobile-menu{
+    width:70px;
+    height: 30px;
+    position: absolute;
+    right: 5%;
+    display: none;
+    top: 2%;
+    z-index: 9999999;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+
+      }
+      .Mobile-menu span{
+        display: block;
+        width: 100%;
+        height: 20%;
+        background-color: #fff;
+        border-radius: 25px;
+      }
+
+      .Mobile-menu.open span:nth-child(2) {
+        opacity: 0;
+      }
+      
+      .Mobile-menu.open span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+        background-color: #000;
+      }
+      
+      .Mobile-menu.open span:nth-child(3) {
+        transform: translateY(-16px) rotate(-45deg);
+        background-color: #000;
+      }
+
+      .Mobile-content{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #fff;
+        z-index: 99999;
+        transform: translateY(-100%);
+      }
+
+      .Mobile-content p{
+        font-size: 1.5em;
+        width: 100%;
+        height: 50px;
+        color: #000 !important;
+
+      }
+
+      .menu-open{
+        transform: translateY(0);
+      }
+
+
+      h3{
+        color: #fff;
+        font-family: Poppins-regular;
+        font-size: 2em;
+      }
+
+      h4{
+        color: #fff;
+        font-family: Poppins-regular;
+        font-size:3.5em;
+        width: 25%;
+        margin: 0;
+      }
+
+    
+      .Exercise_banner__short_descr{
+        width: 55%;
+        border-radius: 25px;
+        height: 30px;
+        background-color: #313030b6;
+        display: flex;
+        flex-direction: row;
+        padding: 0.3%;
+        gap: 5%;
+        align-items: center;
+        position: relative;
+      }
+
+      .Exercise_banner__text{
+        color: #ffffffa6;
+        font-size: 20px;
+      }
+
+      .Exercise_banner__short_descr span{
+        background-color: #25AB75;
+        border-radius: 25px;
+        width: 10%;
+        display: block;
+        display: flex;
+        align-items: center;
+        font-family: Poppins-bold;
+        justify-content: center;
+        font-size: 0.8em;
+        font-weight: bold;
+        height: 90%;
+      }
+     
+      .Exercise_banner__title{
+        font-family: Poppins-bold;
+        font-weight: bold;
+        font-size: 8em;
+        width: 40%;
+      }
+
+      .Exercise_banner__left-side{
+        float: left;
+        width: 50%;
+        height: 100%;
+      }
+      .stat{
+        border-radius: 10px;
+        background-color: #202020;
+        width: 100%;
+        height: 120px;
+        margin-bottom:50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .time-colored{
+        font-size: 45px;
+        color: yellow;
+        font-family: Poppins-bold;
+      }
+      .calories-colored{
+        font-size: 45px;
+        color: red;
+        font-family: Poppins-bold;
+      }
+      .Exercise_banner__right-side{
+        float: right;
+        width: 50%;
+        height: 100%;
+      }
+      .Exercise_banner__right-side img{
+        width: 75%;
+        float: left;
+        height: 100%;
+      }
+      .Exercise_banner__right-side_stats{
+        width: 25%;
+        float: right;
+        height: 100%;
+      }
+
+      .Exercise_banner__buttons{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+      }
+
+
+
+  /* ------------------------------------ */
+
+
+
+
+
+
+  /* HEADER */
+
+
+  .header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+    height: 100%;
+    color: #ffffffa6 !important;
+    font-family:"Poppins-regular";
+  }
+
+  .header-section a p{
+    color: #ffffffa6
+  }
+
+  nav p{
+    cursor: pointer;
+    height: 10%;
+  }
+
+  /* ------------------------------------ */
+
+
+/* PRICING */
+
+
+.pricing{
+    position:fixed;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 90vh;
+    background-color: #202020;
+    border-radius: 20px;
+    z-index: 9999;
+    transform: translateY(-100%);
+    box-sizing: border-box;
+    padding: 1%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.activated{
+    transform: translateY(5%) !important;
+}
+
+.pricing_wrapper{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+  
+}
+.pricing-active{
+    border: 1px solid orangered;
+}
+
+.pricing_wrapper__item{
+    cursor: pointer;
+    height: 100%;
+    width: 32%;
+    border-radius: 10px;
+   
+}
+.pricing_wrapper img{
+  width: 100%;
+  height: 50%;
+  border-radius: 10px; 
+}
+
+.pricing_title{
+    width: 100%;
+    height: 10%;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: Poppins-bold;
+}
+
+.pricing_description{
+    width: 100%;
+    height: 39%;
+    color: #ffffffa6;
+    font-family: Poppins-regular;
+}
+.pricing_description li{
+    margin-bottom: 3%;
+    font-size: 16px;
+}
+
+.pricing_order{
+    width: 100%;
+    height: 10%;
+}
+.promocode{
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    float: right;
+   
+}
+.promocode img{
+   width: 30%;
+   height: 100%; 
+}
+
+.order{
+    margin: 0; margin-left: 5%;
+    float: right;
+    text-align: center;
+    
+}
+
+
+/* ------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* WORKOUT */
+
+
+ .wrapper-banner{
+    width: 100%;
+    height: 800px;
+   
+ }
+ .Exercise_banner{
+    width: 100%;
+    height: 800px;
+    box-sizing: border-box;
+    padding-top:5% ;
+    color: #fff;
+ }
+
+ .wrapper-banner img{
+    width: 40%;
+    float: right;
+    height: 100%;
+ }
+
+
+ .achivments{
+    width: 70%;
+    height:15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .achivment{
+    background-color: #313030b6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    align-items: center;
+    padding: 1%;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    font-size: 18px;
+    color: #fff;
+ }
+ .workout__title_banner{
+    font-family: Poppins-bold;
+    font-size: 6.5em;
+    color: #fff;
+    margin-bottom: 0;
+ }
+ .workout__description_banner{
+    color: #ffffffa6;
+    font-family: Poppins-regular;
+    font-size: 1em;
+    width: 80%;
+    line-height: 2em;
+ }
+
+ .workout__text_section{
+    width: 60%;
+    float: left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+ }
+
+
+ /* ------------------------------------ */
+
+
+
+ /* Popular-exercises */
+
+.Popular-exercises{
+    margin-top: 10%;
+    position: relative;
+    width: 100%;
+    height:800px;
+    
+}
+
+.Popular-Exercises__wrapper{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Popular-Exercises__wrapper_item{
+    width: 26%;
+    height: 45%;
+    cursor: pointer;
+   
+}
+
+.Popular-Exercises__wrapper_item:hover{
+    transform: scale(1.2);
+    z-index: 9999;
+}
+.Popular-Exercises__wrapper_item img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    height: 80%;
+    position: relative;
+}
+
+.ok{
+    display: inline-block;
+}
+.ok::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: black;
+    pointer-events: none; 
+  }
+
+.Popular-Exercises__wrapper__title{
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    position: relative;
+    bottom: 15%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.Popular-Exercises__wrapper__callories{
+    width: 100%;
+    height: 10%;
+    color: #ffffffa6;
+}
+
+.see-more__btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    letter-spacing: 1.5px;
+    color: #ffffffa6;
+    cursor: pointer;
+}
+
+
+
+ /* ------------------------------------ */
+
+
+
+ /*RECOMENDATION*/
+
+ 
+.Recomendation{
+width: 100%;
+height: 1000px;
+margin-top: 5%;
+}
+
+.Recomendation-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.Recomendation-right{
+    width: 45%;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+}
+
+.Recomendation-left__gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Recomendation-left__gallery_item{
+width: 47%;
+height: 100%;
+}
+
+
+.Recomendation h4{
+    position: relative;
+    display: block;
+    width: 30%;
+    height: 40%;
+    z-index: 200;
+}
+
+.Recomendation-right__text{
+    width: 100%;
+    font-size: 20px;
+    height: 30%;
+    color: #ffffffa6;
+    
+}
+
+    h4 img{
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    z-index: -1; 
+}
+
+.Recomendation-left__gallery_item img{
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+}
+
+.Recomendation-left__gallery_title{
+    width: 100%;
+    height: 5%;
+    color: #fff;
+}
+.Recomendation-left__gallery_job{
+    width: 100%;
+    color: #ffffffa6;
+    height: 5%;
+}
+
+.Recomendation-right__gallery_title{
+    width: 100%;
+    height: 5%;
+    color: #fff;
+}
+.Recomendation-right__gallery_job{
+    width: 100%;
+    color: #ffffffa6;
+    height: 5%;
+}
+
+
+.Recomendation-right__gallery{
+    width: 100%;
+    height: 70%;
+   
+
+}
+
+.Recomendation-right__gallery img{
+    width: 100%;
+    height:80%;
+}
+
+
+
+  /* ------------------------------------ */
+
+
+
+  /*FINTES PLAN*/
+
+
+  .fitnesPlan{
+    width: 100%;
+    height: auto;
+color: #fff;
+display: flex;
+flex-direction: column;
+  }
+
+
+.fitnesPlan_item{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #ffffff69;
+   
+}
+.fitnesPlan_item_number{
+    width: 5%;
+    font-size: 2em;
+    color: #ffffffa6;
+}
+  
+.fitnesPlan_item_description{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fintesPlan_item__title{
+    width: 100%;
+    height: 50%;
+    font-family: Poppins-regular;
+    font-size: 3em;
+}
+.fintesPlan_item__video{
+    height: 40%;
+    width: 100%;
+    color: #ffffffa6;
+}
+
+  /* ------------------------------------ */
+
+  
+
+  /* DESKTOP-LAPTOP */
+
+  @media screen and (max-width:1800px) {
+
+    .Exercise_banner__short_descr{
+        width: 70%;
+    }
+    
+
+ 
+
+    .pricing_title{
+        height: auto;
+    }
+    .pricing_wrapper__item {
+        overflow-y: auto;
+        overflow-x: hidden;
+        border-radius: 0;
+    }
+   
+  }
+
+  @media screen and (max-width:1700px) {
+    .Recomendation h4{
+        width: 45%;
+    }
+  }
+
+
+  @media screen and (max-width:1500px){
+    nav{
+        width: 35%;
+    }
+  }
+
+  @media screen and (max-width:1400px) {
+    .achivment{
+        font-size: 16px;
+    }
+    .Exercise_banner__short_descr{
+        font-size: 15px;
+        width: 75%;
+    }
+    .order {
+        width: 200px !important;
+    }
+    .promocode{
+        width: 200px !important;
+    }
+  }
+
+  @media screen and (max-width:1300px) {
+    
+
+    .workout__description_banner{
+        font-size: 0.9em;
+    }
+
+    .time-colored{
+        font-size: 30px;
+    }
+    .calories-colored{
+        font-size: 30px;
+    }
+    .fintesPlan_item__title{
+        font-size: 2em;
+    }
+    .fitnesPlan_item_description{
+        width: 50%;
+    }
+
+    
+
+  }
+
+
+  @media screen and (max-width:1200px) {
+    .Recomendation-left h4{
+        font-size: 3.5em;
+        width: 50%;
+    }
+    nav{
+        width: 50%;
+    }
+    .Recomendation-left h4 img{
+        width: 300px;
+    }
+    .Exercise_banner__short_descr{
+        width: 80%;
+        font-size: 12px;
+    }
+    .workout__description_banner{
+        font-size: 0.8em;
+    }
+    .achivment{
+        width: 25%;
+    }
+    .Exercise_banner__title {
+        font-size: 5em;
+    }
+    .Exercise_banner__left-side{
+        width: 40%;
+    }
+    .Exercise_banner__right-side{
+        width: 60%;
+    }
+    .Exercise_banner__right-side img{
+        width: 60%;
+        height: 80%;
+        z-index: -999;
+    }
+    .Exercise_banner__text{
+        font-size: 16px;
+    }
+    .Exercise_banner__buttons{
+        z-index: 200;
+    }
+    .button{
+        width: 120px;
+        font-size: 14px;
+    }
+    .Popular-exercises{
+        margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width:1000px) {
+    .Recomendation-left h4{
+        font-size: 3em;
+        width: 55%;
+    }
+    body{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    
+    .Exercise_banner__short_descr{
+        width: 100%;
+    }
+
+    .Exercise_banner__right-side img{
+        width: 60%;
+        height: 60%;
+        z-index: -999;
+    }
+    .Exercise_banner{
+        height: 700px;
+    }
+  }
+
+
+  /* ------------------------------------ */
+
+    /* MOBILE */
+
+
+@media screen and (max-width:900px) {
+    
+    .workout__text_section{
+        width: auto;
+    }
+    .wrapper-banner img{
+        display: none;
+    }
+
+    .Popular-Exercises__wrapper__title{
+        font-size: 2em;
+    }
+
+    .Recomendation-right__gallery img{
+        height: 60%;
+    }
+    .Exercise_banner__right-side img{
+        display: none;
+
+    }
+    .Exercise_banner__right-side{
+        width: 40%;
+    }
+    .Exercise_banner__right-side_stats{
+        width: 50%;
+    }
+    .Exercise_banner__left-side{
+        width: 60%;
+    }
+    .Exercise_banner__short_descr{
+        height: 40px;
+    }
+
+}
+    
+
+@media screen and (max-width:700px) {
+    
+    .workout__title_banner{
+        font-size: 4em;
+    }
+    nav{
+        width:65%;
+    }
+    .Recomendation-right__text{
+        font-size: 17px;
+    }
+    .Recomendation{
+        height: 850px;
+    }
+    .Recomendation-left{
+        height: auto;
+    }
+    .pricing{
+        width: 100vw !important;
+        height: 100vh !important;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .activated{
+        transform: translateY(0%) !important;
+    }
+
+    .pricing_wrapper {
+        width: 100%;
+    }
+    .close-modal{
+        display: none;
+    }
+    .pricing_wrapper img{
+        height: 40%;
+    }
+    .pricing_description li{
+        margin-bottom: 10%;
+    }
+
+
+    .Recomendation-left h4{
+        font-size: 2.5em;
+    }
+    .Recomendation-right__gallery img{
+        height: 40%;
+    }
+
+    .fintesPlan_item__title{
+        font-size: 1.5em;
+    }
+    .fitnesPlan_item_description{
+        height: auto;
+    }
+    .Popular-Exercises__wrapper{
+        height: 600px;
+    }
+
+}
+
+
+@media screen and (max-width:650px) {
+    .Exercise_banner__title{
+        font-size: 3.5em;
+    }
+    .see-more__btn{
+        color: #fff;
+        font-weight: bold;
+        bottom: 5%;
+        left: 30%;
+        top: auto;
+        right: auto;
+    }
+    .Popular-Exercises__wrapper_item{
+        width: 45%;
+        height: 300px;
+        margin-bottom: 5%;
+    }
+    .Popular-Exercises__wrapper{
+        height: auto;
+        margin-bottom: 5%;
+    }
+    .Popular-exercises{
+        height: auto;
+    }
+    .Recomendation{
+        height: auto;
+    }
+    .Recomendation-left{
+        width: 100%;
+        height: 600px;
+        
+    }
+    .Recomendation-left h4{
+        width: 100%;
+
+    }
+
+    .Recomendation-right{
+        width: 100%;
+        height: 800px;
+    }
+    .see-more__btn {
+        position:static;
+        font-size: 1.3em;
+        text-align: center;
+
+    }
+    .achivments {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    .time-colored{
+        font-size: 1.5em;
+    }
+    .calories-colored{
+        font-size: 1.5em;
+    }
+    nav{
+        display: none;
+    }
+    .Mobile-menu
+    {display: flex;}
+
+     .stat{
+        text-align: center;
+    }
+    .Exercise_banner {
+        height: 500px;
+    }
+    .pricing_wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+    .pricing_wrapper__item {
+        width: 100%;
+        height: auto;
+        overflow:visible;
+    }
+    .pricing_order{
+       position:absolute ;
+       width: 70%;
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: space-between;
+    }
+    .order {
+        width: 45% !important;
+       
+
+    }
+    .promocode{
+        width:45% !important;
+        font-size: 0.7em ;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .workout__title_banner{
+        font-size: 3.5em;
+    }
+    .Recomendation-left__gallery_title{
+        height: auto;
+    }
+    .Recomendation-left__gallery_job{
+        height: auto;
+    }
+    .Exercise_banner__left-side{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+    }
+    .Exercise_banner__right-side{
+        width: 100%;
+        height: 400px;
+    }
+    .Exercise_banner__right-side_stats{
+        width: 100%;
+    }
+    .stat{
+        margin-bottom: 10%;
+    }
+    .Exercise_banner__title{
+        font-size: 2.5em;
+    }
+    .Exercise_banner__text{
+        font-size: 12px;
+    }
+    .time-colored{
+        font-size: 3.5em;
+    }
+    .calories-colored{
+        font-size: 3.5em;
+    }
+    
+    .stat{
+        font-size: 0.6em;
+    }
+    .Popular-Exercises__wrapper__title{
+        font-size: 1.3em;
+    }
+    .Exercise_banner{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .Recomendation-right__text{
+        font-size: 15px;
+        height: 300px;
+    }
+   
+}
