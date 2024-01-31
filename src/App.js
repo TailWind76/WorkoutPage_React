@@ -27,7 +27,7 @@ const App = () => (
 
 
   <Routes>
-  <Route path='WorkoutPage_React/' element={<Workout/>} />
+  <Route path='/WorkoutPage_React/' element={<Workout/>} />
   <Route path='WorkoutPage_React/treadmill' element={<Treadmil/>} />
   <Route path='WorkoutPage_React/stretching' element={<Stretching/>} />
   <Route path='WorkoutPage_React/yoga' element={<Yoga/>} />
