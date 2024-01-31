@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WorkoutPage_React/static/css/main.4e05c406.css",
-    "main.js": "/WorkoutPage_React/static/js/main.fffbd495.js",
+    "main.js": "/WorkoutPage_React/static/js/main.57ea4184.js",
     "static/js/787.d4aba7ab.chunk.js": "/WorkoutPage_React/static/js/787.d4aba7ab.chunk.js",
     "static/media/PushUp.png": "/WorkoutPage_React/static/media/PushUp.278bf092edb506af9663.png",
     "static/media/Running.png": "/WorkoutPage_React/static/media/Running.a8350bb7db220cfd631e.png",
@@ -30,11 +30,11 @@
     "index.html": "/WorkoutPage_React/index.html",
     "static/media/arrow.svg": "/WorkoutPage_React/static/media/arrow.f28afa62b31a43e280766414b9b03e95.svg",
     "main.4e05c406.css.map": "/WorkoutPage_React/static/css/main.4e05c406.css.map",
-    "main.fffbd495.js.map": "/WorkoutPage_React/static/js/main.fffbd495.js.map",
+    "main.57ea4184.js.map": "/WorkoutPage_React/static/js/main.57ea4184.js.map",
     "787.d4aba7ab.chunk.js.map": "/WorkoutPage_React/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e05c406.css",
-    "static/js/main.fffbd495.js"
+    "static/js/main.57ea4184.js"
   ]
 }
