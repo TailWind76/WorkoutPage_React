@@ -27,13 +27,13 @@ const App = () => (
 
 
   <Routes>
-  <Route path='/' element={<Workout/>} />
-  <Route path='/treadmill' element={<Treadmil/>} />
-  <Route path='/stretching' element={<Stretching/>} />
-  <Route path='/yoga' element={<Yoga/>} />
-  <Route path='/pushup' element={<PushUp/>} />
-  <Route path='/running' element={<Running/>} />
-  <Route path='/lifting' element={<Lifting/>} />
+  <Route path='/WorkoutPage_React/' element={<Workout/>} />
+  <Route path='/WorkoutPage_React/treadmill' element={<Treadmil/>} />
+  <Route path='/WorkoutPage_React/stretching' element={<Stretching/>} />
+  <Route path='/WorkoutPage_React/yoga' element={<Yoga/>} />
+  <Route path='/WorkoutPage_React/pushup' element={<PushUp/>} />
+  <Route path='/WorkoutPage_React/running' element={<Running/>} />
+  <Route path='/WorkoutPage_React/lifting' element={<Lifting/>} />
 
   </Routes>
 
