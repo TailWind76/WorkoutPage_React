@@ -23,7 +23,7 @@ const Header = () => {
       </div>
 
       <div className={isOpen ? "Mobile-content menu-open" : "Mobile-content"}>
-        <Link to='/' onClick={() => setIsPricingActive(false)}><p>HOME</p></Link>
+        <Link to='/WorkoutPage_React/' onClick={() => setIsPricingActive(false)}><p>HOME</p></Link>
 
       
         {isPricingActive ? (
@@ -36,7 +36,7 @@ const Header = () => {
         <p onClick={handleModalToggle}>PRICING</p>
       </div>
 
-      <Link to='/'><h1>WORKOUT</h1></Link>
+      <Link to='/WorkoutPage_React/'><h1>WORKOUT</h1></Link>
 
       <nav>
         <a href="#Popular-exercises"><p>EXERCISES</p></a>
